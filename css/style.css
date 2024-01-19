@@ -78,10 +78,15 @@ img {
 }
 .logo-icon-use {
 }
+
+.header-menu-wrap {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
 .header-list {
     display: flex;
     gap: 60px;
-    margin-left: 680px;
 }
 .header-item {
     color: #000;
@@ -170,6 +175,7 @@ img {
 .section-hero {
     padding-top: 220px;
     padding-bottom: 353px;
+    margin-left: 111px;
 }
 .hero-title {
     font-size: 60px;
@@ -177,7 +183,6 @@ img {
     line-height: 140%; /* 84px */
     margin-bottom: 10px;
     width: 736px;
-    margin-left: 111px;
 }
 .hero-text {
     color: #000;
@@ -185,10 +190,8 @@ img {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 80px;
-    margin-left: 111px;
 }
 .hero-butt {
-    margin-left: 111px;
     font-size: 32px;
     font-weight: 700;
     line-height: normal;
@@ -210,4 +213,42 @@ img {
     border: 1px solid #000;
     background-color: transparent;
     color: #000;
+}
+
+
+/*? --------------COURSE----------------- */
+.section-course {
+    background-color: #999;
+    padding-top: 75px;
+    padding-left: 154px;
+    position: relative;
+    padding-bottom: 117px;
+}
+.course-title {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.course-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.course-item {
+    max-width: 660px;
+}
+.course-item:nth-child(even) img {
+    margin-left: auto;
+}
+.course-item-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+}
+.course-img {
+    position: absolute;
+    bottom: 0;
+    right: 60px;
 }
