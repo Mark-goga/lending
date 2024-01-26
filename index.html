@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container-header">
             <a href="/index.html" class="header-logo">
                 <div class="container-logo-icon">
                     <svg width="80" height="55" class="logo-icon">
@@ -37,11 +37,14 @@
                 </a>
                 <a href="" class="header-sing">Sign in</a>
             </div>
+            <svg class="header-menu-burg" width="30" height="30">
+                <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
         </div>
     </header>
     <main class="main">
         <section class="section-hero">
-            <div class="container">
+            <div class="container-hero">
                 <h2 class="hero-title">Online courses thaught in real Japanese</h2>
                 <p class="hero-text">Over 2,500 language courses worldwide</p>
                 <button type="button" class="hero-butt">Find out more</button>
@@ -49,22 +52,24 @@
             </div>
         </section>
         <section class="section-course">
-            <h2 class="course-title">Course contains</h2>
-            <ul class="course-list">
-                <li class="course-item">
-                    <img src="./images/Group 6.png" alt="1" width="106" height="106">
-                    <p class="course-item-text">ISI provides detailed curriculum to meet your purpose and level. Classes are taught by qualified Japanese language teachers, who provide high quality educati</p>
-                </li>
-                <li class="course-item">
-                    <img src="./images/Group 7.png" alt="2" width="106" height="106">
-                    <p class="course-item-text">We have a support system from the time of admission to the time of graduation, including homeroom teachers and career advisors assist students in finding further education and </p>
-                </li>
-                <li class="course-item">
-                    <img src="./images/Group 8.png" alt="3" width="106" height="106">
-                    <p class="course-item-text">We have a high level of satisfaction after enrollment. The school has received awards from international accreditation bodies and is highly regarded both within and outside the schools.</p>
-                </li>
-            </ul>
-            <img class="course-img" src="./images/backgroundimage.png" alt="girl" width="665" height="894">
+            <div class="container-course">
+                <h2 class="course-title">Course contains</h2>
+                <ul class="course-list">
+                    <li class="course-item">
+                        <img src="./images/Group 6.png" alt="1" class="course-item-img"">
+                        <p class="course-item-text">ISI provides detailed curriculum to meet your purpose and level. Classes are taught by qualified Japanese language teachers, who provide high quality educati</p>
+                    </li>
+                    <li class="course-item">
+                        <img src="./images/Group 7.png" alt="2" class="course-item-img"">
+                        <p class="course-item-text">We have a support system from the time of admission to the time of graduation, including homeroom teachers and career advisors assist students in finding further education and </p>
+                    </li>
+                    <li class="course-item">
+                        <img src="./images/Group 8.png" alt="3" class="course-item-img"">
+                        <p class="course-item-text">We have a high level of satisfaction after enrollment. The school has received awards from international accreditation bodies and is highly regarded both within and outside the schools.</p>
+                    </li>
+                </ul>
+                <img class="course-img" src="./images/backgroundimage.png" alt="girl" width="665" height="894">
+            </div>
         </section>
     </main>
 </body>
