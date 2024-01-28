@@ -306,19 +306,20 @@ img {
 /*? --------------WHY----------------- */
 .why {
     position: relative;
-    min-width: 427px;
+    max-width: 427px;
+    padding-bottom: 113px;
+    padding-top: 45px;
 }
 .why-icon-ellips {
     position: absolute;
     right: 50%;
     z-index: -1;
-    top: 20px;
+    top: 45px;
 }
 .why-wrap {
     background: rgba(249, 97, 97, 0.70);
     box-shadow: -6px 4px 25px 0px rgba(0, 0, 0, 0.25);
     margin-left: auto;
-    margin-top: 45px;
     padding: 83px 34px 62px 35px;
     width: 394px;
 }
@@ -398,7 +399,6 @@ img {
     background: rgba(249, 97, 97, 0.85);
     box-shadow: -9px 8px 25px 0px rgba(0, 0, 0, 0.15);
     margin-top: 196px;
-    margin-bottom: 113px;
     padding: 51px 20px 39px 20px;
 }
 
@@ -489,9 +489,12 @@ img {
 .feadback {
     background: #B4B4B4;
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.15);
+    padding-top: 26px;
+    padding-bottom: 48px;
 }
 .container-feadback {
-    padding: 26px 29px 48px 29px;
+    padding-left: 29px;
+    padding-right: 29px;
 }
 .feadback-wrap-title {
     display: flex;
@@ -557,4 +560,180 @@ img {
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
+}
+
+/*? --------------get----------------- */
+.get {
+    position: relative;
+    padding-top: 112px;
+    padding-bottom: 196px;
+}
+.get-wrap-modal {
+    margin: 0 auto;
+    width: 322px;
+}
+.get-wrap-text {
+    color: #F9A830;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: normal;
+}
+.get-wrap-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%; /* 65px */
+    max-width: 332px;
+}
+.get-form {
+    margin-top: 35px;
+}
+.get-form-input:not(:last-child) {
+    margin-bottom: 34px;
+}
+.get-form-input::placeholder {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+.get-form-input {
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.get-form-butt {
+    color: inherit;
+    border-radius: 25px;
+    background: #F9A830;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.get-wrap-icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;  
+    bottom: 10%; 
+}
+
+.get-wrap-svg {
+    position: absolute;
+    z-index: -1;
+}
+
+/*? --------------footer----------------- */
+
+.footer {
+    padding-top: 35px;
+    padding-bottom: 39px;
+    background: #F96161;
+}
+.container-footer {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.footer-nav {
+    display: flex;
+    gap: 50px;
+}
+.container-about {
+}
+.about-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.about-item {
+}
+.about-item-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.container-for {
+}
+.container-for-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.container-for-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container-for-item {
+}
+.for-item-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-adress {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.footer-adress-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer-adress-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer-adress-item {
+}
+.footer-adress-item-link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-adress-icon-list {
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+}
+.footer-adress-icon-item {
+}
+.footer-adress-icon-item-link {
+}
+.footer-logo {
+}
+.footer-logo-icon {
+    fill: #FFF;
+}
+.footer-logo-item {
+    fill: #FFFFFF;
+}
+.logo-icon-use {
 }
