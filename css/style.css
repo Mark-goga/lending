@@ -622,6 +622,7 @@ img {
     border: none;
 }
 .get-wrap-icon {
+    overflow: hidden;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -631,6 +632,7 @@ img {
 }
 
 .get-wrap-svg {
+    
     position: absolute;
     z-index: -1;
 }
